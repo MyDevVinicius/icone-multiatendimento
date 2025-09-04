@@ -1,0 +1,26 @@
+<svg width="512" height="512" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="blueGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00FFFF"/>
+      <stop offset="100%" stop-color="#0000FF"/>
+    </linearGradient>
+  </defs>
+  <rect width="200" height="200" fill="none"/>
+  
+  <!-- Diamond shape -->
+  <polygon points="100,20 180,100 100,180 20,100" stroke="url(#blueGradient)" stroke-width="4" fill="none"/>
+
+  <!-- Angle brackets -->
+  <polyline points="40,80 20,100 40,120" stroke="url(#blueGradient)" stroke-width="4" fill="none"/>
+  <polyline points="160,80 180,100 160,120" stroke="url(#blueGradient)" stroke-width="4" fill="none"/>
+
+  <!-- Circuit lines -->
+  <line x1="100" y1="60" x2="100" y2="140" stroke="url(#blueGradient)" stroke-width="3"/>
+  <line x1="100" y1="60" x2="70" y2="90" stroke="url(#blueGradient)" stroke-width="2"/>
+  <line x1="100" y1="140" x2="130" y2="110" stroke="url(#blueGradient)" stroke-width="2"/>
+
+  <!-- Circuit nodes -->
+  <circle cx="100" cy="60" r="6" fill="url(#blueGradient)"/>
+  <circle cx="100" cy="140" r="6" fill="url(#blueGradient)"/>
+  <circle cx="100" cy="100" r="6" fill="url(#blueGradient)"/>
+</svg>
